@@ -48,3 +48,6 @@ Une fois que tout est ok, exécuter le code en mode « Release ». Récupérer l
 Placer cette nouvelle version dans le dossier « C:\Program Files\SIMonitact\SIMonitact ». 
 Cliquer droit sur l’application et Créer un raccourci. Copier le raccourci de l'application dans votre dossier d’utilisation et renommer le SIMonitact.
 Effectuer les étapes décrite dans la section « Premier lancement de SIMonitact» et l’application est prête à être utilisée.
+
+## Contact
+Pour toute question, envoyez un mail à sec.simu@gmail.com
