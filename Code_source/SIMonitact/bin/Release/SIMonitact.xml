@@ -1,0 +1,186 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SIMonitact
+</name>
+</assembly>
+<members>
+<member name="T:SIMonitact.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources._290088311558096434_24">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources._7410416951552644391_24">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources.CHU1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources.Europe">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources.Reunion">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SIMonitact.My.Resources.Resources.ReUniSim">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSet.BilanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSet.BilanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSet.BilanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSetTableAdapters.BilanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SIMonitact.SIMonitactBDDDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SIMonitact.SIMonitactBDDDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SIMonitact.SIMonitactBDDDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager.UpdateAll(SIMonitact.SIMonitactBDDDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormation">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormation.FormationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormation.FormationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormation.FormationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormationTableAdapters.FormationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager.UpdateUpdatedRows(SIMonitact.SIMonitactBDDFormation,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager.UpdateInsertedRows(SIMonitact.SIMonitactBDDFormation,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager.UpdateDeletedRows(SIMonitact.SIMonitactBDDFormation,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager.UpdateAll(SIMonitact.SIMonitactBDDFormation)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SIMonitact.SIMonitactBDDFormationTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

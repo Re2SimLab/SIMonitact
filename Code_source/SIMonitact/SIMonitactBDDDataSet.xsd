@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SIMonitactBDDDataSet" targetNamespace="http://tempuri.org/SIMonitactBDDDataSet.xsd" xmlns:mstns="http://tempuri.org/SIMonitactBDDDataSet.xsd" xmlns="http://tempuri.org/SIMonitactBDDDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SIMonitactBDDConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SIMonitactBDDConnectionString (MySettings)" PropertyReference="ApplicationSettings.SIMonitact.My.MySettings.GlobalReference.Default.SIMonitactBDDConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BilanTableAdapter" GeneratorDataComponentClassName="BilanTableAdapter" Name="Bilan" UserDataComponentName="BilanTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SIMonitactBDDConnectionString (MySettings)" DbObjectName="Bilan" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT nb_DJ, nb_tot_formateur, moy_formateur, nb_tot_aide_formateur, moy_aide_formateur, nb_tot_participant, moy_participant FROM Bilan</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nb_DJ" DataSetColumn="nb_DJ" />
+              <Mapping SourceColumn="nb_tot_formateur" DataSetColumn="nb_tot_formateur" />
+              <Mapping SourceColumn="moy_formateur" DataSetColumn="moy_formateur" />
+              <Mapping SourceColumn="nb_tot_aide_formateur" DataSetColumn="nb_tot_aide_formateur" />
+              <Mapping SourceColumn="moy_aide_formateur" DataSetColumn="moy_aide_formateur" />
+              <Mapping SourceColumn="nb_tot_participant" DataSetColumn="nb_tot_participant" />
+              <Mapping SourceColumn="moy_participant" DataSetColumn="moy_participant" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SIMonitactBDDDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SIMonitactBDDDataSet" msprop:Generator_UserDSName="SIMonitactBDDDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Bilan" msprop:Generator_TableClassName="BilanDataTable" msprop:Generator_TableVarName="tableBilan" msprop:Generator_TablePropName="Bilan" msprop:Generator_RowDeletingName="BilanRowDeleting" msprop:Generator_RowChangingName="BilanRowChanging" msprop:Generator_RowEvHandlerName="BilanRowChangeEventHandler" msprop:Generator_RowDeletedName="BilanRowDeleted" msprop:Generator_UserTableName="Bilan" msprop:Generator_RowChangedName="BilanRowChanged" msprop:Generator_RowEvArgName="BilanRowChangeEvent" msprop:Generator_RowClassName="BilanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nb_DJ" msprop:Generator_ColumnVarNameInTable="columnnb_DJ" msprop:Generator_ColumnPropNameInRow="nb_DJ" msprop:Generator_ColumnPropNameInTable="nb_DJColumn" msprop:Generator_UserColumnName="nb_DJ" type="xs:int" minOccurs="0" />
+              <xs:element name="nb_tot_formateur" msprop:Generator_ColumnVarNameInTable="columnnb_tot_formateur" msprop:Generator_ColumnPropNameInRow="nb_tot_formateur" msprop:Generator_ColumnPropNameInTable="nb_tot_formateurColumn" msprop:Generator_UserColumnName="nb_tot_formateur" type="xs:double" minOccurs="0" />
+              <xs:element name="moy_formateur" msprop:Generator_ColumnVarNameInTable="columnmoy_formateur" msprop:Generator_ColumnPropNameInRow="moy_formateur" msprop:Generator_ColumnPropNameInTable="moy_formateurColumn" msprop:Generator_UserColumnName="moy_formateur" type="xs:double" minOccurs="0" />
+              <xs:element name="nb_tot_aide_formateur" msprop:Generator_ColumnVarNameInTable="columnnb_tot_aide_formateur" msprop:Generator_ColumnPropNameInRow="nb_tot_aide_formateur" msprop:Generator_ColumnPropNameInTable="nb_tot_aide_formateurColumn" msprop:Generator_UserColumnName="nb_tot_aide_formateur" type="xs:double" minOccurs="0" />
+              <xs:element name="moy_aide_formateur" msprop:Generator_ColumnVarNameInTable="columnmoy_aide_formateur" msprop:Generator_ColumnPropNameInRow="moy_aide_formateur" msprop:Generator_ColumnPropNameInTable="moy_aide_formateurColumn" msprop:Generator_UserColumnName="moy_aide_formateur" type="xs:double" minOccurs="0" />
+              <xs:element name="nb_tot_participant" msprop:Generator_ColumnVarNameInTable="columnnb_tot_participant" msprop:Generator_ColumnPropNameInRow="nb_tot_participant" msprop:Generator_ColumnPropNameInTable="nb_tot_participantColumn" msprop:Generator_UserColumnName="nb_tot_participant" type="xs:double" minOccurs="0" />
+              <xs:element name="moy_participant" msprop:Generator_ColumnVarNameInTable="columnmoy_participant" msprop:Generator_ColumnPropNameInRow="moy_participant" msprop:Generator_ColumnPropNameInTable="moy_participantColumn" msprop:Generator_UserColumnName="moy_participant" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
